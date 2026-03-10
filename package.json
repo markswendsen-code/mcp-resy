@@ -1,0 +1,45 @@
+{
+  "name": "@striderlabs/mcp-resy",
+  "version": "0.1.0",
+  "description": "MCP server for Resy - let AI agents search restaurants, check availability, and make reservations",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "striderlabs-mcp-resy": "dist/index.js"
+  },
+  "files": [
+    "dist/**/*",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "resy",
+    "restaurant",
+    "reservations",
+    "ai",
+    "automation"
+  ],
+  "author": "Strider Labs <hello@striderlabs.ai>",
+  "license": "MIT",
+  "homepage": "https://striderlabs.ai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/markswendsen-code/mcp-resy"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0",
+    "playwright": "^1.41.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

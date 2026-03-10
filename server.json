@@ -1,0 +1,29 @@
+{
+  "mcpName": "io.github.markswendsen-code/resy",
+  "displayName": "Resy",
+  "description": "Search restaurants, check availability, make reservations, and join waitlists on Resy",
+  "version": "0.1.0",
+  "publisher": "Strider Labs",
+  "publisherUrl": "https://striderlabs.ai",
+  "license": "MIT",
+  "homepage": "https://github.com/markswendsen-code/mcp-resy",
+  "npm": "@striderlabs/mcp-resy",
+  "transport": "stdio",
+  "command": "npx",
+  "args": ["-y", "@striderlabs/mcp-resy"],
+  "tools": [
+    "resy_status",
+    "resy_login",
+    "resy_logout",
+    "resy_search_venues",
+    "resy_get_venue",
+    "resy_check_availability",
+    "resy_make_reservation",
+    "resy_get_reservations",
+    "resy_cancel_reservation",
+    "resy_get_waitlist",
+    "resy_join_waitlist"
+  ],
+  "categories": ["restaurants", "reservations", "food", "dining"],
+  "icon": "https://resy.com/favicon.ico"
+}
