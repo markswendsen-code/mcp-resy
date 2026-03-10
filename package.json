@@ -1,6 +1,6 @@
 {
   "name": "@striderlabs/mcp-resy",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "MCP server for Resy - let AI agents search restaurants, check availability, and make reservations",
   "type": "module",
   "main": "dist/index.js",
